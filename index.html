@@ -7,7 +7,7 @@
 
     <title>Hypotenuse</title>
 
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
@@ -18,10 +18,20 @@
       </div>
       <!-- Calculation -->
       <div class="calc-container">
-
+        <form>
+          <label id="aLabel">Side A: </label>
+          <input type="text" id="aText" placeholder="Add Value" required><br>
+          <label id="bLabel">Side B: </label>
+          <input type="text" id="bText" placeholder="Add Value" required><br>
+          <button type="button" id="submitButton">Calculate</button>
+        </form>
+      </div>
+      <div class="answer">
+        <h3 id="cLabel">Side C: </h3>
       </div>
 
     </main>
     <footer></footer>
+    <script src="index.js"></script>
   </body>
 </html>
